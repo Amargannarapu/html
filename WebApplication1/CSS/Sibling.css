@@ -1,0 +1,35 @@
+﻿#left{
+    
+    width:300px;
+    padding:15px;
+    margin:10px;
+}
+#Center{
+    
+    width:300px;
+    padding:15px;
+    margin:10px;
+}
+#right{
+    
+    width:300px;
+    padding:15px;
+    margin:10px;
+}
+#left,#Center,#right
+{
+border:2px solid red;
+}
+
+
+/* Sibling  Only Matched elements*/
+h2+p
+{
+    background-color:yellow;
+}
+
+/* Sibling  All  Matched elements*/
+
+/*h2 ~ p {
+       background-color:red;
+}*/

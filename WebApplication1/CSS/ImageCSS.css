@@ -1,0 +1,62 @@
+﻿body {
+}
+.ImageCSS {
+    /* Content , padding, border... Margin() */
+    border:5px solid red;
+    padding:10px;
+    background-color:yellow;
+    margin-left:auto;  /* Margin left and margin right will set the content into center of the page  (Inline element we can't center.......)*/
+    margin-right:auto;
+    display:block; /* This will convert into inline to block elements. */
+    
+}
+
+h1{
+    background-color:green;
+    text-decoration:underline;
+}
+
+
+h2{
+    
+    background-color:yellow;
+    text-decoration:underline;
+    
+}
+
+.div1class{
+    background-color:red;
+    float:left;  /* Float and width used to align the box elements into spcified positions */
+    width:50%;
+    
+}
+
+.div2class {
+
+        background-color:black;
+        color:white; 
+        float:right;  /* Float and width used to align the box elements into spcified positions */
+    width:50%;
+    
+}
+
+p{
+    border-color:green;
+    border-width:2px;
+    border-style:solid;
+
+
+}
+.div1Positioning{
+
+    background-color:red;
+    position:absolute; /*Position will use top and left properties......  */ 
+    top:75px;
+    left:150px;
+    width:250px;
+    height:20px;
+    
+    /* Positon: absolute determined by Non-Static element */
+    /* Positon: relative determined by First Static element */
+    
+}

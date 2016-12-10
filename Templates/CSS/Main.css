@@ -1,0 +1,130 @@
+﻿/* ======================================Layoout Section==============*/
+body {
+    background-color:#9c9f84;
+    margin:0px;
+    font-family:Verdana,Georgia,serif;
+    font-size:14px;
+}
+
+#Header {
+     height:60px; 
+}
+
+#Navbar {
+   
+    
+ 
+}
+#Header ,#Navbar,#footer{
+        background-color:#5c755e;
+        margin:10px;
+        border-radius:5px;
+}
+#Navbar ul
+{
+    list-style:none;
+    padding:5px;
+    text-align:center;
+    background-color:#000;
+    margin:0px;
+    border-radius:5px;
+   
+}
+ #Navbar ul li {
+      display:inline;
+      
+    }
+
+ #Navbar ul li a
+ {
+      text-decoration:none;
+      font-family:Arial;
+      padding:5px;
+      
+      background-color:#000;
+ }
+
+  #Navbar ul li a:hover
+ {
+      
+      color:black;
+      background-color:White;
+ }
+
+
+.main
+{
+    background-color:#e5e4d7;
+    
+    margin-right:320px;
+    margin-left:10px;
+    margin-top:10px;
+    margin-bottom:10px;
+    border-radius:5px;
+    padding:10px;
+    font-size:110%;
+  }
+
+
+/* ======================================Heading Section==============*/
+h1{
+    color:red;
+}
+
+/* ======================================Right Side Navigation Section==============*/
+.sideright
+{
+    background-color:#e5e4d7;
+    margin-right:10px;
+    margin-left:10px;
+    margin-top:0px;
+    margin-bottom:10px;
+    border-radius:5px;
+    padding:10px;
+    font-size:105%;
+    float:right;
+    width:280px;
+    clear:right;
+
+}
+.ImageSidebar {
+
+
+    margin-left:10px;
+    margin-top:0px;
+    margin-bottom:10px;
+    border-radius:10px;
+    padding:10px;
+     float:right;
+    width:300px;
+    clear:right;
+    opacity:1.0;/* Image special effects*/
+    transition:opacity 0.5s ; /* Image special effects*/
+
+
+}
+.ImageSidebar:hover
+{
+    opacity:0.4;
+}
+
+h3
+{
+    font-size:150%;
+    color:red;
+    text-align:center;
+    padding-top:15px;
+    margin:0px;
+}
+
+/* ======================================Footer Section==============*/
+#footer
+{
+    height:30px;
+    clear:both;
+    text-align:center;
+    font-size:90%;
+    padding-top:5px;
+}
+
+
