@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <script src="Scripts/jquery-1.9.1.js"></script>
+
+    <script>
+        $(document).ready(function () {
+
+            $('#Button1').click(function () {
+
+                alert('Background Color Changes to Yellow....');
+                $('#Button1').css('background-color', 'Yellow');
+                $('#Button1').css('color', 'Red');
+            });
+        });
+
+    </script>
+</head>
+<body>
+
+    <!--Different selectors in jQuery
+    jQuery selectors allow you to select html elements in the DOM by
+    1. Element ID
+    2. Element Tag Name
+    3. Element Class Name
+    4. Element attribute
+    5. Element Attribute values and many more-->
+
+
+    <input id="Button1" type="button" value="Click me" />
+</body>
+</html>

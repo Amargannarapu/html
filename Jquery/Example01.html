@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <script src="Scripts/jquery-1.9.1.js"></script>
+    <script>
+
+        //1. Document ready loads first .
+        //2. windows load after Document ready .
+        
+        // $(window).load event fires when the DOM and all the content on the page (images, css etc) is fully loaded
+
+               
+
+        $(window).load(function () {
+
+            $('#div').html("Height= " + $('#image').height() + "/ Width=" + $('#image').width());
+
+            alert("Window loaded");
+
+
+        });
+
+        $(document).ready(function(){
+            alert("DOM already Loaded and ready....");
+
+            $('#Button1').click(function () {
+
+                alert("Call me Alert");
+            });
+        } );
+
+    </script>
+</head>
+<body>
+    <input id="Button1" type="button" value="Click me for Alert.." />
+
+    <div id="div"></div>
+    <img src="Image/India.png" id="image" />
+</body>
+</html>
